@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 
 const fetchNews = (date) => {
-  const apiKey = '<rapid api key>'
+  const apiKey = '<key>'
   const [data, setData] = useState([])
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState(null)
